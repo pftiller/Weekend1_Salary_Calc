@@ -1,0 +1,160 @@
+* {
+  font-family:Helvetica, sans-serif;
+    margin:0;
+}
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+  .fullscreen-bg {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      overflow: hidden;
+      z-index: -100;
+  }
+
+  .fullscreen-bg__video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: auto;
+      height: auto;
+      min-width: 100%;
+      min-height: 100%;
+      -webkit-transform: translate(-50%, -50%);
+         -moz-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+  	    transform: translate(-50%, -50%);
+  }
+
+main {
+  z-index: 1;
+}
+h1{
+  text-align: center;
+  background-color: #022601;
+  color:#E7F2D5;
+  height:50px;
+  padding:10px 0;
+}
+label {
+  display: block;
+  background-color: #23592B;
+  color:#E7F2D5;
+  text-align: center;
+  margin:auto;
+  padding:2px;
+}
+#inputs {
+  width:65%;
+  margin: 20px auto;
+}
+#inputs td {
+  width:45%;
+  margin:20px 2.5%;
+  background-color: #022601;
+  border:2px solid #022601;
+}
+input {
+  height:25px;
+  width:100%;
+  text-align: center;
+  color:#022601;
+  border:none;
+  padding:0;
+  font-size:14px;
+}
+input:focus {
+  outline:none;
+  background-color: #E7F2D5;
+}
+#stretch {
+  width:65%;
+  margin:0 auto;
+}
+#stretch table {
+  width:65%;
+  margin:0 auto;
+    border:2px solid #022601;
+    border-spacing:0;
+}
+input#annual_salary {
+  height:45px;
+  margin:auto;
+  display:block;
+  font-size:36px;
+
+}
+.currency {
+    font-size: 30px;
+    color: #999;
+    background: white;
+    position: relative;
+}
+.currency:before {
+    position: absolute;
+    top: 5px;
+    content:"$";
+    left: 5px;
+    z-index:2;
+}
+button {
+  width:150px;
+  height:50px;
+  box-shadow: none;
+  border-radius: none;
+  background-color: #022601;
+  color:#E7F2D5;
+  margin:25px auto;
+  font-size: 25px;
+  border:1px solid #E7F2D5;
+  cursor: pointer;
+  display:block;
+
+}
+button:hover {
+  background-color: #23592B;
+}
+#employees button {
+  width:75px;
+  height:25px;
+  font-size: 14px
+}
+#employee-list table {
+  width:90%;
+  margin:25px auto;
+  border-spacing: 0;
+}
+
+#employee-list tr:nth-child(even) {
+  background-color:#F1F2CE;
+}
+#employee-list tr:nth-child(odd) {
+  background-color:#D0D9B0;
+}
+#employee-list td {
+  color:#022601;
+  text-align:center;
+  border:1px solid #23592B;
+}
+
+
+#employee-list thead tr {
+  background-color: #23592B!important;
+  color:#E7F2D5!important;
+}
+#employee-list thead th{
+  height:25px;
+  vertical-align: middle;
+}
