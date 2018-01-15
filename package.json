@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/pftiller/Weekend1_Salary_Calc/issues"
   },
-  "homepage": "https://github.com/pftiller/Weekend1_Salary_Calc#readme"
+  "homepage": "https://github.com/pftiller/Weekend1_Salary_Calc#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
